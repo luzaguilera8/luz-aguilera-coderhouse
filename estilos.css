@@ -1,0 +1,153 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+ h1 {
+    text-align: center;
+background-color:rgb(140, 184, 153);
+color: rgb(71, 65, 65);
+padding: 20px;
+}
+@media (max-width: 480px) {
+  h1 {
+   color: black;
+    background-color:blue;
+width: 200%;
+  }
+  
+}
+@media (max-widht:480px) {
+  h2{
+    color: aquamarine;
+    background-color: blue;
+    border-color: yellowgreen;
+  }
+  
+}
+@media (max-width:480px) {
+  nav li {
+    color: black;
+    background-color: blue;
+    width: 210%;
+    text-align: center;
+    text-decoration-color: rgb(55, 226, 43);
+  }
+  
+}
+@media (max-width:460px) {
+  nav li a {
+    text-align: right;
+  }
+}
+nav ul{
+    background-color: rgb(52, 150, 108);
+    width: 100%;
+    text-align: center;
+    text-emphasis: none;
+    text-rendering: initial;
+}
+nav li {
+    display: flex;
+}
+nav a {
+    text-decoration: none;
+    color: rgb(5, 69, 111);
+    padding: 10px;
+    width: 150px;
+
+}
+nav li:hover {
+    background-color:rgb(135, 198, 143) ;
+}
+img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+.contenido {
+    display: flex;
+    margin: 50px;
+    grid-column: inherit;
+}
+.articulos {
+    width: 80%;
+}
+.secciones {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+}
+.menu-secundario {
+    width: 20;
+    margin-top: 50px;
+    text-decoration: none;
+}
+.menu-secundario a {
+    display: block;
+    color: rgb(180, 226, 119);
+    margin-bottom: 30px;
+    text-align: center;
+}
+   /* footer */
+    .footer{
+      background-color: rgb(155, 136, 173);
+      padding: 50px 0 30px 0;
+      margin: auto;
+      overflow: hidden;
+    }
+
+    .contenedor-footer{
+      display: flex;
+      width: 90%;
+      justify-content: space-evenly;
+      margin: auto;
+      padding-bottom: 50px;
+      border-bottom: 1px solid gray;
+    }
+.content-foo{
+  text-align: center;
+}
+.content-foo h4{
+  color: rgb(255, 127, 246);
+  border-bottom: 3px solid rgb(136, 168, 71);
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+.content-foo p{
+  color: brown;
+}
+.titulo-final{
+  text-align: center;
+  font-size: 24px;
+  margin: 20px 0 0 0;
+  color: grey;
+/*footer*/
+} @media (max-widht:460) { 
+  .footer{
+    margin-top: auto;
+    padding: 50%;
+    background-color: blue;
+    color: black;
+  }
+}  
+@media (max-width:460) {
+  .contenedor-footer{
+    width: 100%;
+    color: blue;
+    background-color: azure;
+  }
+}
+@media (max-width:460) {
+  .contenedor-footer,
+  .content-foo h4{
+    flex-direction: column;
+    text-align: center;
+  }
+}
+@media (min-wiht:780px) {
+ h1{
+  width: 300%;
+  color: brown;
+ } 
+  
+}
